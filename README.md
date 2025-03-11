@@ -5,7 +5,7 @@
 Для успешной установки в вашем дистрибутиве должна быть внедрена поддержка Flatpak.
 
 В большинстве случаев достаточно скачать прикреплённый к последнему [релизу](https://github.com/DUB1401/MechWarrior-Flatpak/releases) файл _MechWarrior.flatpak_ и запустить его из среды рабочего стола или установить командой:
-```
+```Bash
 flatpak install MechWarrior.flatpak
 ```
 Во время установки данные AppStream будут недоступны и подгрузятся только после её завершения.
@@ -13,8 +13,8 @@ flatpak install MechWarrior.flatpak
 Также можно выполнить полную сборку и установку при помощи идущего в комплекте Bash-скрипта. Для этого следуйте инструкции ниже.
 1. Клонируйте текущий репозиторий и откройте его локальную директорию.
 ```Bash
-git clone https://github.com/DUB1401/MechWarrior Flatpak
-cd MechWarrior Flatpak
+git clone https://github.com/DUB1401/MechWarrior-Flatpak
+cd MechWarrior-Flatpak
 ```
 2. Выдайте скрипту сборки права на исполнение и запустите его.
 ```Bash
